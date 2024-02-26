@@ -19,18 +19,18 @@ for i in no_duplicates:
 
 ###########################
 
-maquina_noob = "noob-1"
-existe_noob = False
+machine_noob = "noob-1"
+exists_noob = False
 
 for a in final_machines:
-    if a == maquina_noob:
-        existe_noob= True
+    if a == machine_noob:
+        exists_noob= True
         break
 
 color_green = Fore.GREEN
 color_yellow = Fore.YELLOW
 
-if existe_noob == True:
+if exists_noob == True:
     print("\n" +  color_green + "there are no new machines")
 else:
     print("\n" + color_yellow + "New machine!")
