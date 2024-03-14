@@ -1,0 +1,2 @@
+amigos = ['ana','carlos','luis']
+
